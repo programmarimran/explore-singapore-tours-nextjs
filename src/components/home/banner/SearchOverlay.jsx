@@ -88,7 +88,7 @@ const SearchOverlay = () => {
           </div>
 
           {/* Check Out Date */}
-          <div className="space-y-2">
+          <div className="space-y-2 w-full">
             <label className="flex items-center text-gray-700 font-medium text-sm">
               Check Out
             </label>

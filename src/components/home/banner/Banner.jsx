@@ -59,7 +59,7 @@ const Banner = () => {
         }}
         navigation={true}
         loop={true}
-        className="h-[500px] md:h-[600px] lg:h-[700px]"
+        className=" h-[85vh] lg:h-[70vh]" 
       >
         {bannerData.map((banner) => (
           <SwiperSlide key={banner.id} className="relative overflow-hidden">
