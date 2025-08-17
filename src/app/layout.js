@@ -1,7 +1,7 @@
 import { DM_Sans, Geist } from "next/font/google";
 import "./globals.css";
-import Navbar from "@/components/shared/Navbar";
-import Footer from "@/components/shared/Footer";
+import Navbar from "@/components/shared/navbar/Navbar";
+import Footer from "@/components/shared/footer/Footer";
 import { ThemeProvider } from "@/assets/context/themeContext";
 
 
