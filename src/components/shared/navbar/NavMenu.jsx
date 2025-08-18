@@ -3,7 +3,7 @@ import Link from "next/link";
 const NavMenu = () => {
    
     return (
-      <div className=" hidden md:flex justify-center items-center gap-6">
+      <div className=" hidden md:flex justify-center items-center text-black dark:text-white gap-6">
           <Link href={"/"}>Home</Link>
           <Link href={"/tours"}>Tours</Link>
           <Link href={"/about"}>About Us</Link>

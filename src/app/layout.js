@@ -2,7 +2,7 @@ import { DM_Sans, Geist } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/shared/navbar/Navbar";
 import Footer from "@/components/shared/footer/Footer";
-import { ThemeProvider } from "@/assets/context/themeContext";
+import ThemeProvider from "./theme-provider";
 
 
 const geistSans = Geist({
