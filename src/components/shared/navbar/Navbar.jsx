@@ -64,7 +64,6 @@ const Navbar = () => {
               </p>
             </div>
           </Link>
-<h1 className=" text-yellow-400 dark:text-red-500">Amar din donia sob ase re ase re 😂</h1>
           {/* Desktop Navigation Menu */}
           <div className="hidden lg:flex items-center space-x-8">
             <NavMenu />

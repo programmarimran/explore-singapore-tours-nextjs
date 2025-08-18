@@ -3,8 +3,9 @@ import Link from 'next/link';
 import React from 'react';
 
 const Tourspage =async () => {
-    const data = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL}/data/singapore-tours.json`)
-  const tours = await data.json()
+    // const data = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL}/singapore-tours.json`)
+ const res = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL}/api/tours`, { cache: 'no-store' });
+const tours = await res.json();
 
     return (
            <div className="bg-gray-50 dark:bg-gray-900 min-h-screen p-8">
@@ -12,7 +13,7 @@ const Tourspage =async () => {
         Singapore Tours
       </h1>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         {tours.map((tour) => (
           <div
             key={tour.id}
@@ -34,7 +35,7 @@ const Tourspage =async () => {
 
                 <p className="text-yellow-500 font-bold mt-2">${tour.price}</p>
                <Link
-                href="/book-now" 
+                href={`/tours/${tour.id}`}
                 className="bg-orange-500 hover:bg-orange-600 text-white px-6 py-2.5 rounded-lg font-semibold text-sm transition-all duration-300 transform hover:scale-105 shadow-md hover:shadow-lg"
               >
                 See More
