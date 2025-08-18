@@ -35,9 +35,9 @@ export default function RootLayout({ children }) {
         <ThemeProvider>
           
         <div className="min-h-screen flex flex-col">
-          <header >
+          <section className=" sticky top-0" >
             <Navbar />
-          </header>
+          </section>
 
           <main className="min-h-screen bg-white  " >{children}</main>
 

@@ -37,7 +37,7 @@ const Footer = () => {
             <ul className="space-y-3">
               <li>
                 <Link 
-                  href="/tours/marina-bay" 
+                  href="/tours" 
                   className="text-gray-600 dark:text-gray-400 hover:text-orange-500 dark:hover:text-orange-400 transition-colors duration-300"
                 >
                   Marina Bay Tour With Gardens
@@ -45,7 +45,7 @@ const Footer = () => {
               </li>
               <li>
                 <Link 
-                  href="/tours/sentosa-island" 
+                  href="/tours" 
                   className="text-gray-600 dark:text-gray-400 hover:text-orange-500 dark:hover:text-orange-400 transition-colors duration-300"
                 >
                   Sentosa Island Tour With Universal
@@ -53,7 +53,7 @@ const Footer = () => {
               </li>
               <li>
                 <Link 
-                  href="/tours/cultural-heritage" 
+                  href="/" 
                   className="text-gray-600 dark:text-gray-400 hover:text-orange-500 dark:hover:text-orange-400 transition-colors duration-300"
                 >
                   Cultural Heritage Tour With Chinatown
@@ -61,7 +61,7 @@ const Footer = () => {
               </li>
               <li>
                 <Link 
-                  href="/tours/night-safari" 
+                  href="/" 
                   className="text-gray-600 dark:text-gray-400 hover:text-orange-500 dark:hover:text-orange-400 transition-colors duration-300"
                 >
                   Night Safari Tour With Zoo
@@ -86,7 +86,7 @@ const Footer = () => {
               </li>
               <li>
                 <Link 
-                  href="/blog" 
+                  href="/" 
                   className="text-gray-600 dark:text-gray-400 hover:text-orange-500 dark:hover:text-orange-400 transition-colors duration-300"
                 >
                   Community Blog
@@ -94,7 +94,7 @@ const Footer = () => {
               </li>
               <li>
                 <Link 
-                  href="/careers" 
+                  href="/" 
                   className="text-gray-600 dark:text-gray-400 hover:text-orange-500 dark:hover:text-orange-400 transition-colors duration-300"
                 >
                   Careers
@@ -102,7 +102,7 @@ const Footer = () => {
               </li>
               <li>
                 <Link 
-                  href="/press" 
+                  href="/" 
                   className="text-gray-600 dark:text-gray-400 hover:text-orange-500 dark:hover:text-orange-400 transition-colors duration-300"
                 >
                   Press & Media
@@ -119,7 +119,7 @@ const Footer = () => {
             <ul className="space-y-3">
               <li>
                 <Link 
-                  href="/partnerships" 
+                  href="/" 
                   className="text-gray-600 dark:text-gray-400 hover:text-orange-500 dark:hover:text-orange-400 transition-colors duration-300"
                 >
                   Partnerships
@@ -127,7 +127,7 @@ const Footer = () => {
               </li>
               <li>
                 <Link 
-                  href="/faq" 
+                  href="/" 
                   className="text-gray-600 dark:text-gray-400 hover:text-orange-500 dark:hover:text-orange-400 transition-colors duration-300"
                 >
                   FAQ
@@ -143,7 +143,7 @@ const Footer = () => {
               </li>
               <li>
                 <Link 
-                  href="/support" 
+                  href="/" 
                   className="text-gray-600 dark:text-gray-400 hover:text-orange-500 dark:hover:text-orange-400 transition-colors duration-300"
                 >
                   Customer Support

@@ -106,10 +106,10 @@ const Navbar = () => {
                 </button>
               </div>
 
-              {/* Theme Toggle */}
+              {/* Theme Toggle
               <div onClick={toggleTheme} className="cursor-pointer">
                 <CustomizedSwitches />
-              </div>
+              </div> */}
 
               {/* CTA Button */}
               <Link
@@ -140,10 +140,10 @@ const Navbar = () => {
               </svg>
             </button>
 
-            {/* Theme Toggle Mobile */}
+            {/* Theme Toggle Mobile
             <div onClick={toggleTheme} className="cursor-pointer">
               <CustomizedSwitches />
-            </div>
+            </div> */}
 
             {/* Mobile Menu Button */}
             <SwipeableTemporaryDrawer />

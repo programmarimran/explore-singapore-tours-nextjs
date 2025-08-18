@@ -5,11 +5,7 @@
     "slug": "sentosa-island-adventure",
     "description": "Enjoy fun rides, beaches, and attractions at Sentosa Island. Perfect for families, friends, and solo travelers.",
     "mainImage": "/images/img1.jpg",
-    "gallery": [
-      "https://source.unsplash.com/800x600/?sentosa,1",
-      "https://source.unsplash.com/800x600/?marinabay,1",
-      "https://source.unsplash.com/800x600/?gardensbythebay,1"
-    ],
+    "gallery": ["/images/img1.jpg","/images/img2.jpg","/images/img3.jpg"],
     "duration": "1 Day",
     "price": 100,
     "category": "Adventure",
@@ -26,12 +22,8 @@
     "title": "Gardens by the Bay Tour",
     "slug": "gardens-by-the-bay",
     "description": "Explore the futuristic gardens, Flower Dome, Cloud Forest, and Supertree Grove.",
-   "mainImage": "/images/img2.jpg",
-    "gallery": [
-      "https://source.unsplash.com/800x600/?sentosa,2",
-      "https://source.unsplash.com/800x600/?marinabay,2",
-      "https://source.unsplash.com/800x600/?gardensbythebay,2"
-    ],
+    "mainImage": "/images/img2.jpg",
+    "gallery": ["/images/img1.jpg","/images/img2.jpg","/images/img3.jpg"],
     "duration": "Half Day",
     "price": 60,
     "category": "Nature",
@@ -48,12 +40,8 @@
     "title": "Singapore City Highlights",
     "slug": "singapore-city-highlights",
     "description": "Visit Marina Bay Sands, Merlion Park, Chinatown, and Little India.",
- "mainImage": "/images/img3.jpg",
-    "gallery": [
-      "https://source.unsplash.com/800x600/?sentosa,3",
-      "https://source.unsplash.com/800x600/?marinabay,3",
-      "https://source.unsplash.com/800x600/?gardensbythebay,3"
-    ],
+    "mainImage": "/images/img3.jpg",
+    "gallery": ["/images/img1.jpg","/images/img2.jpg","/images/img3.jpg"],
     "duration": "Full Day",
     "price": 80,
     "category": "City Tour",
@@ -70,12 +58,8 @@
     "title": "Singapore Night Safari",
     "slug": "singapore-night-safari",
     "description": "Experience the world’s first nocturnal wildlife park with tram rides and walking trails.",
-   "mainImage": "https://source.unsplash.com/800x600/?singapore,city,4",
-    "gallery": [
-      "https://source.unsplash.com/800x600/?sentosa,4",
-      "https://source.unsplash.com/800x600/?marinabay,4",
-      "https://source.unsplash.com/800x600/?gardensbythebay,4"
-    ],
+    "mainImage": "/images/img1.jpg",
+    "gallery": ["/images/img1.jpg","/images/img2.jpg","/images/img3.jpg"],
     "duration": "Evening",
     "price": 70,
     "category": "Wildlife",
@@ -92,12 +76,8 @@
     "title": "Singapore Zoo and River Safari",
     "slug": "singapore-zoo-river-safari",
     "description": "Enjoy the award-winning Singapore Zoo and River Safari including panda exhibits.",
- "mainImage": "https://source.unsplash.com/800x600/?singapore,city,5",
-    "gallery": [
-      "https://source.unsplash.com/800x600/?sentosa,5",
-      "https://source.unsplash.com/800x600/?marinabay,5",
-      "https://source.unsplash.com/800x600/?gardensbythebay,5"
-    ],
+    "mainImage": "/images/img2.jpg",
+    "gallery": ["/images/img1.jpg","/images/img2.jpg","/images/img3.jpg"],
     "duration": "Full Day",
     "price": 90,
     "category": "Wildlife",
@@ -114,12 +94,8 @@
     "title": "Marina Bay Sands SkyPark",
     "slug": "marina-bay-sands-skypak",
     "description": "Enjoy panoramic views from the SkyPark Observation Deck.",
-   "mainImage": "https://source.unsplash.com/800x600/?singapore,city,6",
-    "gallery": [
-      "https://source.unsplash.com/800x600/?sentosa,6",
-      "https://source.unsplash.com/800x600/?marinabay,6",
-      "https://source.unsplash.com/800x600/?gardensbythebay,6"
-    ],
+    "mainImage": "/images/img3.jpg",
+    "gallery": ["/images/img1.jpg","/images/img2.jpg","/images/img3.jpg"],
     "duration": "Half Day",
     "price": 50,
     "category": "Sightseeing",
@@ -131,18 +107,13 @@
     "reviews":[{"name":"Chris Tan","rating":5,"comment":"Amazing views!"},{"name":"Lina Ong","rating":4,"comment":"Worth every penny."}],
     "contactInfo":{"phone":"+65 9988 7766","email":"info@singtours.com"}
   },
-
   {
     "id": 7,
     "title": "Singapore Flyer Observation",
     "slug": "singapore-flyer",
     "description": "Ride the iconic Singapore Flyer and enjoy the city skyline from above.",
-   "mainImage": "https://source.unsplash.com/800x600/?singapore,city,7",
-    "gallery": [
-      "https://source.unsplash.com/800x600/?sentosa,7",
-      "https://source.unsplash.com/800x600/?marinabay,7",
-      "https://source.unsplash.com/800x600/?gardensbythebay,7"
-    ],
+    "mainImage": "/images/img1.jpg",
+    "gallery": ["/images/img1.jpg","/images/img2.jpg","/images/img3.jpg"],
     "duration": "1-2 Hours",
     "price": 45,
     "category": "Sightseeing",
@@ -154,119 +125,94 @@
     "reviews":[{"name":"Kevin Lee","rating":5,"comment":"Breathtaking views from the top."},{"name":"Siti Rahman","rating":4,"comment":"Smooth ride and informative guide."}],
     "contactInfo":{"phone":"+65 7788 5566","email":"info@singtours.com"}
   },
-
   {
     "id": 8,
     "title": "Chinatown Cultural Walk",
     "slug": "chinatown-walk",
     "description": "Discover Singapore's Chinese heritage through a guided walking tour of Chinatown.",
-  "mainImage": "https://source.unsplash.com/800x600/?singapore,city,8",
-    "gallery": [
-      "https://source.unsplash.com/800x600/?sentosa,8",
-      "https://source.unsplash.com/800x600/?marinabay,8",
-      "https://source.unsplash.com/800x600/?gardensbythebay,8"
-    ],
+    "mainImage": "/images/img2.jpg",
+    "gallery": ["/images/img1.jpg","/images/img2.jpg","/images/img3.jpg"],
     "duration": "2-3 Hours",
     "price": 30,
     "category": "Cultural",
     "highlights": ["Buddha Tooth Relic Temple","Traditional Shops","Heritage Sites"],
-    "itinerary":[{"time":"09:30 AM","activity":"Hotel Pickup"},{"time":"10:00 AM","activity":"Chinatown Walk"},{"time":"12:00 PM","activity":"Return to hotel"}],
-    "inclusions":["Guide","Entry Tickets to Temples"],
-    "exclusions":["Food & Drinks","Personal Expenses"],
+    "itinerary":[{"time":"09:00 AM","activity":"Hotel Pickup"},{"time":"09:30 AM","activity":"Chinatown Walking Tour"},{"time":"12:00 PM","activity":"Return to hotel"}],
+    "inclusions":["Guide","Entry Fees"],
+    "exclusions":["Meals","Souvenirs"],
     "rating": 4.5,
-    "reviews":[{"name":"Nurul Huda","rating":5,"comment":"Very insightful cultural experience."},{"name":"Tommy Lim","rating":4,"comment":"Loved the heritage sites."}],
+    "reviews":[{"name":"Maya Tan","rating":5,"comment":"Very informative and fun."},{"name":"Alan Koh","rating":4,"comment":"Learned a lot about local heritage."}],
     "contactInfo":{"phone":"+65 3344 5566","email":"info@singtours.com"}
   },
-
   {
     "id": 9,
-    "title": "Little India Food Tour",
-    "slug": "little-india-food-tour",
-    "description": "Savor the flavors of Indian cuisine while exploring Little India.",
-   "mainImage": "https://source.unsplash.com/800x600/?singapore,city,9",
-    "gallery": [
-      "https://source.unsplash.com/800x600/?sentosa,9",
-      "https://source.unsplash.com/800x600/?marinabay,9",
-      "https://source.unsplash.com/800x600/?gardensbythebay,9"
-    ],
-    "duration": "3-4 Hours",
-    "price": 40,
-    "category": "Food & Culture",
-    "highlights": ["Traditional Dishes","Local Snacks","Spice Market"],
-    "itinerary":[{"time":"11:00 AM","activity":"Hotel Pickup"},{"time":"11:30 AM","activity":"Food Tasting Walk"},{"time":"02:30 PM","activity":"Return to hotel"}],
-    "inclusions":["Food Tasting","Guide"],
-    "exclusions":["Drinks","Souvenirs"],
+    "title": "Little India Experience",
+    "slug": "little-india-experience",
+    "description": "Experience the vibrant culture, temples, and food of Little India.",
+    "mainImage": "/images/img3.jpg",
+    "gallery": ["/images/img1.jpg","/images/img2.jpg","/images/img3.jpg"],
+    "duration": "2-3 Hours",
+    "price": 35,
+    "category": "Cultural",
+    "highlights": ["Sri Veeramakaliamman Temple","Street Art","Local Cuisine Tasting"],
+    "itinerary":[{"time":"10:00 AM","activity":"Hotel Pickup"},{"time":"10:30 AM","activity":"Little India Tour"},{"time":"01:00 PM","activity":"Return to hotel"}],
+    "inclusions":["Guide","Food Tasting","Temple Entry"],
+    "exclusions":["Souvenirs","Transport"],
     "rating": 4.6,
-    "reviews":[{"name":"Aishah Khan","rating":5,"comment":"Food was delicious and tour fun!"},{"name":"David Ong","rating":4,"comment":"Great variety of snacks."}],
-    "contactInfo":{"phone":"+65 2233 4455","email":"info@singtours.com"}
+    "reviews":[{"name":"Priya Singh","rating":5,"comment":"Colorful and lively experience."},{"name":"Raj Kumar","rating":4,"comment":"Good cultural insight."}],
+    "contactInfo":{"phone":"+65 4433 2211","email":"info@singtours.com"}
   },
-
   {
     "id": 10,
-    "title": "Singapore Botanic Gardens Tour",
-    "slug": "botanic-gardens",
-    "description": "Relax and explore the UNESCO World Heritage Botanic Gardens in Singapore.",
-    "mainImage": "https://source.unsplash.com/800x600/?singapore,city,10",
-    "gallery": [
-      "https://source.unsplash.com/800x600/?sentosa,10",
-      "https://source.unsplash.com/800x600/?marinabay,10",
-      "https://source.unsplash.com/800x600/?gardensbythebay,10"
-    ],
+    "title": "Jewel Changi Airport Visit",
+    "slug": "jewel-changi-visit",
+    "description": "Explore the iconic Jewel at Changi Airport, Rain Vortex, and Canopy Park.",
+    "mainImage": "/images/img1.jpg",
+    "gallery": ["/images/img1.jpg","/images/img2.jpg","/images/img3.jpg"],
     "duration": "Half Day",
-    "price": 50,
-    "category": "Nature",
-    "highlights": ["Orchid Garden","Lake Area","Nature Trails"],
-    "itinerary":[{"time":"08:30 AM","activity":"Hotel Pickup"},{"time":"09:00 AM","activity":"Botanic Gardens Visit"},{"time":"12:00 PM","activity":"Return to hotel"}],
-    "inclusions":["Guide","Entry Tickets"],
-    "exclusions":["Food & Drinks"],
+    "price": 40,
+    "category": "Sightseeing",
+    "highlights": ["Rain Vortex","Canopy Park","Shops & Dining"],
+    "itinerary":[{"time":"09:00 AM","activity":"Hotel Pickup"},{"time":"09:30 AM","activity":"Jewel Changi Visit"},{"time":"12:00 PM","activity":"Return to hotel"}],
+    "inclusions":["Guide","Entry Ticket"],
+    "exclusions":["Food & Drinks","Shopping"],
     "rating": 4.7,
-    "reviews":[{"name":"Fiona Tan","rating":5,"comment":"Beautiful gardens and relaxing environment."},{"name":"Samuel Lee","rating":4,"comment":"Peaceful and well-maintained."}],
-    "contactInfo":{"phone":"+65 9988 1122","email":"info@singtours.com"}
+    "reviews":[{"name":"Sophie Tan","rating":5,"comment":"Spectacular waterfall!"},{"name":"Mark Lee","rating":4,"comment":"Lots of attractions to enjoy."}],
+    "contactInfo":{"phone":"+65 2233 4455","email":"info@singtours.com"}
   },
-
   {
     "id": 11,
-    "title": "Clarke Quay Night Cruise",
-    "slug": "clarke-quay-cruise",
-    "description": "Enjoy an evening cruise along the Singapore River with dinner and entertainment.",
-    "mainImage": "https://source.unsplash.com/800x600/?singapore,city,11",
-    "gallery": [
-      "https://source.unsplash.com/800x600/?sentosa,11",
-      "https://source.unsplash.com/800x600/?marinabay,11",
-      "https://source.unsplash.com/800x600/?gardensbythebay,11"
-    ],
-    "duration": "Evening",
-    "price": 85,
-    "category": "Entertainment",
-    "highlights": ["Dinner Cruise","Live Music","City Lights"],
-    "itinerary":[{"time":"06:30 PM","activity":"Hotel Pickup"},{"time":"07:00 PM","activity":"Board Cruise & Dinner"},{"time":"09:30 PM","activity":"Return to hotel"}],
-    "inclusions":["Dinner","Guide","Hotel Pickup & Drop"],
-    "exclusions":["Drinks outside menu","Personal Expenses"],
-    "rating": 4.8,
-    "reviews":[{"name":"Rachel Lim","rating":5,"comment":"Fantastic evening with city lights."},{"name":"Brian Tan","rating":4,"comment":"Cruise was very comfortable."}],
-    "contactInfo":{"phone":"+65 5566 1234","email":"info@singtours.com"}
-  },
-
-  {
-    "id": 12,
     "title": "Pulau Ubin Cycling Tour",
     "slug": "pulau-ubin-cycling",
-    "description": "Explore the rustic island of Pulau Ubin on bicycles and enjoy nature and wildlife.",
-    "mainImage": "https://source.unsplash.com/800x600/?singapore,city,12",
-    "gallery": [
-      "https://source.unsplash.com/800x600/?sentosa,12",
-      "https://source.unsplash.com/800x600/?marinabay,12",
-      "https://source.unsplash.com/800x600/?gardensbythebay,12"
-    ],
-    "duration": "Full Day",
-    "price": 70,
+    "description": "Experience the rustic charm of Pulau Ubin on a cycling tour.",
+    "mainImage": "/images/img2.jpg",
+    "gallery": ["/images/img1.jpg","/images/img2.jpg","/images/img3.jpg"],
+    "duration": "Half Day",
+    "price": 55,
     "category": "Adventure",
-    "highlights": ["Cycling Trails","Wildlife Observation","Village Visit"],
-    "itinerary":[{"time":"08:00 AM","activity":"Hotel Pickup"},{"time":"08:30 AM","activity":"Ferry to Pulau Ubin"},{"time":"09:00 AM","activity":"Cycling Tour"},{"time":"01:00 PM","activity":"Lunch"},{"time":"02:00 PM","activity":"Village Exploration"},{"time":"05:00 PM","activity":"Return to hotel"}],
-    "inclusions":["Bike Rental","Ferry Ticket","Guide","Lunch"],
-    "exclusions":["Personal Expenses","Snacks & Drinks"],
-    "rating": 4.7,
-    "reviews":[{"name":"Haris Ali","rating":5,"comment":"Cycling tour was fun and scenic."},{"name":"Michelle Tan","rating":4,"comment":"Loved the island and nature."}],
-    "contactInfo":{"phone":"+65 7788 3344","email":"info@singtours.com"}
+    "highlights": ["Cycling Trails","Traditional Kampung","Nature Spotting"],
+    "itinerary":[{"time":"08:30 AM","activity":"Hotel Pickup"},{"time":"09:00 AM","activity":"Ferry to Pulau Ubin"},{"time":"09:30 AM","activity":"Cycling Tour"},{"time":"01:00 PM","activity":"Return to hotel"}],
+    "inclusions":["Bike Rental","Guide","Ferry Ticket"],
+    "exclusions":["Food & Drinks","Personal Expenses"],
+    "rating": 4.6,
+    "reviews":[{"name":"Tommy Lim","rating":5,"comment":"Loved cycling around the island!"},{"name":"Rachel Ong","rating":4,"comment":"Relaxing and scenic tour."}],
+    "contactInfo":{"phone":"+65 6655 3322","email":"info@singtours.com"}
+  },
+  {
+    "id": 12,
+    "title": "Haw Par Villa Cultural Park",
+    "slug": "haw-par-villa",
+    "description": "Explore the quirky cultural park filled with Chinese mythology statues and exhibits.",
+    "mainImage": "/images/img3.jpg",
+    "gallery": ["/images/img1.jpg","/images/img2.jpg","/images/img3.jpg"],
+    "duration": "2-3 Hours",
+    "price": 25,
+    "category": "Cultural",
+    "highlights": ["Mythology Statues","Tiger Balm Garden","Cultural Exhibits"],
+    "itinerary":[{"time":"10:00 AM","activity":"Hotel Pickup"},{"time":"10:30 AM","activity":"Haw Par Villa Tour"},{"time":"01:00 PM","activity":"Return to hotel"}],
+    "inclusions":["Guide","Entry Ticket"],
+    "exclusions":["Food & Drinks","Souvenirs"],
+    "rating": 4.4,
+    "reviews":[{"name":"Lee Ming","rating":5,"comment":"Very unique cultural experience!"},{"name":"Ng Wei","rating":4,"comment":"Interesting and fun."}],
+    "contactInfo":{"phone":"+65 7788 8899","email":"info@singtours.com"}
   }
 ]
