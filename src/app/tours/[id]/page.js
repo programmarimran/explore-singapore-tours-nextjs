@@ -19,7 +19,7 @@ export const revalidate = 60; // ISR
 
 export async function generateStaticParams() {
   try {
-    const res = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL || 'https://explore-singapore-tours-5irmmk1mp.vercel.app'}/api/tours`);
+    const res = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL || 'https://explore-singapore-tours.vercel.app'}/api/tours`);
     
     if (!res.ok) {
       console.warn('Failed to fetch tours for static generation, using fallback');
@@ -41,7 +41,7 @@ const Page = async ({ params }) => {
   const { id } = params;
 
   // Server-side fetch with relative path
-  const res = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL || 'https://explore-singapore-tours-5irmmk1mp.vercel.app'}/api/tours/${id}`);
+  const res = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL || 'https://explore-singapore-tours.vercel.app'}/api/tours/${id}`);
   
   if (!res.ok) {
     return (

@@ -10,13 +10,13 @@ export default function NotFound() {
         Page Not Found
       </h2>
       <p className="text-lg mb-8 text-black max-w-md">
-        Oops! The page you are looking for does not exist. It might have been moved or deleted.
+        Oops! The page you are looking for does not exist. It might have been
+        moved or deleted.
       </p>
-      <Link
-        href="/"
-        className="bg-emerald-500 text-black font-bold py-3 px-6 rounded-full hover:bg-emerald-400 transition-colors duration-300"
-      >
-        Go Back Home
+      <Link href={"/"}>
+        <button className="bg-orange-500 text-white font-bold py-3 px-8 rounded-full text-lg hover:bg-orange-400 transition-colors duration-300 transform hover:scale-105">
+          Go to home
+        </button>
       </Link>
     </div>
   );
