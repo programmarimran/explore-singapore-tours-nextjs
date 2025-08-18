@@ -72,7 +72,7 @@ export default function SwipeableTemporaryDrawer() {
       {["right"].map((anchor) => (
         <React.Fragment key={anchor}>
           <Button onClick={toggleDrawer(anchor, true)}>
-            <GiHamburgerMenu className="text-white" size={30} />
+            <GiHamburgerMenu className="text-black" size={30} />
           </Button>
           <SwipeableDrawer
             anchor={anchor}
