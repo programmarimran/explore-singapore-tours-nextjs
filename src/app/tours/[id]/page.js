@@ -60,14 +60,17 @@ const Page = async ({ params }) => {
     <div className="min-h-screen bg-gray-50 dark:bg-gray-900">
       {/* Hero Section */}
       <div className="relative h-96 md:h-[500px] overflow-hidden">
-        <Image
-          src={tour.mainImage}
-          alt={tour.title}
-          fill
-          className="object-cover"
-          priority
-        />
-        <div className="absolute inset-0 bg-black bg-opacity-40 flex items-end">
+         <Image
+            src={tour?.mainImage}
+            priority={true}
+           	placeholder="blur"
+            blurDataURL="data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAAAQAgCdASoQAAsABUB8JbACdACwBNa/YCYAAP7bqFnqGusb+eYXTWIHPFjJkco/m5F2QWCDi/G+A41D9cUyjErTRMxsEsJrwAA="
+            className="rounded-lg h-full w-full object-cover"
+            alt="Picture of the News card"
+            width={500}
+            height={500}
+          />
+        <div className="absolute inset-0 bg-gray-800/40 flex items-end">
           <div className="container mx-auto px-6 pb-8">
             <div className="text-white">
               <span className="inline-block bg-yellow-500 text-black px-3 py-1 rounded-full text-sm font-semibold mb-4">
