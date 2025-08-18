@@ -212,10 +212,11 @@ export default function AboutPage() {
             Lets craft your perfect Singaporean adventure together. Get in touch with us today!
           </p>
          <Link href={"/tours"}>
-          <button className="bg-emerald-500 text-black font-bold py-3 px-8 rounded-full text-lg hover:bg-emerald-400 transition-colors duration-300 transform hover:scale-105">
+          <button className="bg-orange-500 text-white font-bold py-3 px-8 rounded-full text-lg hover:bg-orange-400 transition-colors duration-300 transform hover:scale-105">
             Book Your Tour
           </button>
          </Link>
+      
         </div>
       </section>
     </div>

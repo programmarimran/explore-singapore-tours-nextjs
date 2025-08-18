@@ -1,37 +1,124 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Explore Singapore Tours 🌏
 
-## Getting Started
+A responsive multi-page travel website built with **Next.js 13**, showcasing Singapore's iconic attractions, curated tours, and expert guides.
 
-First, run the development server:
+**Live Demo:** [https://explore-singapore-tours.vercel.app/](https://explore-singapore-tours.vercel.app/)
+
+---
+
+## 🖼 Pages Included
+
+1. **Home Page** (`/`) – Hero section, carousel, featured tours.  
+2. **Tours/Services Page** (`/tours`) – List of available tours/services.  
+3. **Tour/Service Details Page** (`/tours/[id]`) – Individual tour details.  
+4. **About Us Page** (`/about`) – Company story, mission, and team.  
+5. **Contact Us Page** (`/contact`) – Contact form with validation.
+
+---
+
+## 🚀 Features
+
+- Fully **responsive** (mobile, tablet, desktop)  
+- **Navigation Bar** with hamburger menu for small screens  
+- **Image Carousel/Slider** on homepage using Swiper  
+- **Form Validation** for contact form (required fields, email validation)  
+- Smooth hover effects and optional animations using Tailwind & Framer Motion  
+- **Fallback images** for missing/broken images  
+
+---
+
+## 🛠 Tech Stack & Dependencies
+
+- **Framework:** Next.js 15.4.6  
+- **React:** 19.1.0  
+- **CSS:** Tailwind CSS v4  
+- **Icons:** Lucide React, React Icons, MUI Icons  
+- **Animations:** Framer Motion  
+- **Forms:** React Hook Form, SweetAlert2  
+- **Carousel:** Swiper  
+- **Other:** Emotion (styled components)
+
+**Dev Dependencies:**
+
+- ESLint & Next.js ESLint Config  
+- Tailwind PostCSS
+
+---
+
+## 📁 Project Structure
+
+src/
+│
+├─ app/
+│ ├─ about/page.js
+│ ├─ contact/page.js
+│ ├─ tours/page.js
+│ ├─ tours/[id]/page.js
+│ ├─ api/
+│ │ ├─ homePage/route.js
+│ │ └─ tours/[id]/route.js
+│ ├─ lib/utils.js
+│ ├─ layout.js
+│ ├─ theme-provider.js
+│ └─ not-found.js
+├─ assets/
+├─ components/
+│ ├─ contact-us/
+│ ├─ home/
+│ └─ shared/
+│ ├─ footer/
+│ ├─ navbar/
+│ └─ HelpYouButton.jsx
+├─ globals.css
+├─ favicon.ico
+└─ package.json
+
+---
+
+## 💻 Setup & Run Locally
+
+1. **Clone the repository**
+
+```bash
+git clone https://github.com/yourusername/explore-singapore-tours.git
+cd explore-singapore-tours
+```
+
+2. **Install dependencies**
+
+```bash
+npm install
+# or
+yarn
+```
+
+3. **Run the development server**
 
 ```bash
 npm run dev
 # or
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open http://localhost:3000 to view the project.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+NEXT_PUBLIC_BASE_URL=http://localhost:3000
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+⚡ **Notes**
 
-To learn more about Next.js, take a look at the following resources:
+- Make sure Node.js v18+ is installed  
+- Project uses file-based routing in Next.js  
+- Images fetched from Unsplash, with fallback placeholders  
+- Tailwind CSS is used for responsive design and styling  
+- Ensure all components are inside `src/app` following Next.js 13 App Router conventions  
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+📞 **Contact**
 
-## Deploy on Vercel
+- Email: imran423521@gmail.com 
+- LinkedIn: [https://linkedin.com/in/programmarimran](https://linkedin.com/in/programmarimran)  
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
-"# explore-singapore-tours-nextjs" 
+Happy Exploring Singapore! 🏝️
