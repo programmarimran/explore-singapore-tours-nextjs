@@ -113,7 +113,7 @@ const Navbar = () => {
 
               {/* CTA Button */}
               <Link
-                href="/book-now"
+                href="/tours"
                 className="bg-orange-500 hover:bg-orange-600 text-white px-6 py-2.5 rounded-lg font-semibold text-sm transition-all duration-300 transform hover:scale-105 shadow-md hover:shadow-lg"
               >
                 Book Tour

@@ -2,17 +2,17 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
-const Tourspage = async () => {
+const PopularTour = async () => {
   // const data = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL}/singapore-tours.json`)
-  const res = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL}/api/tours`, {
+  const res = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL}/api/homePage`, {
     cache: "no-store",
   });
   const tours = await res.json();
 
   return (
     <div className="bg-gray-50 dark:bg-gray-900 min-h-screen p-8">
-      <h1 className="text-3xl font-bold mb-6 text-yellow-600 dark:text-yellow-400">
-        Singapore Tours
+      <h1 className="text-3xl text-center font-bold mb-6 text-yellow-600 dark:text-yellow-400">
+       Popular Tours
       </h1>
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -55,4 +55,4 @@ const Tourspage = async () => {
   );
 };
 
-export default Tourspage;
+export default PopularTour;
